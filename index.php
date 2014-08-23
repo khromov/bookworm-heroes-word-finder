@@ -7,7 +7,7 @@ $app->config('debug', true);
 /* Main route */
 $app->get('/', function () use ($app)
 {
-    $app->render('home.php');
+    $app->render('home.php', array('app' => $app)); //Pass app through to template
     //echo "Hello!";
 });
 
