@@ -48,7 +48,8 @@ if($handle)
         else {}
     }
 }
-else {}fclose($handle);
+else {}
+fclose($handle);
 
 header("Content-Type: text/plain");
 

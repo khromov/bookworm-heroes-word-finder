@@ -1,0 +1,12 @@
+{
+    "name": "khromov/bookworm-heroes-word-finder",
+    "authors": [
+        {
+            "name": "khromov",
+            "email": "stanislav.khromov@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.*"
+    }
+}
