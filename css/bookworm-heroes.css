@@ -1,0 +1,63 @@
+body .hero-main
+{
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+#solve-form
+{
+    overflow: hidden;
+}
+
+#how-to-use
+{
+    padding-top: 50px;
+}
+
+#solve-form button.btn-submit
+{
+    margin-top: 25px;
+    color: #000000;
+}
+
+#solve-form button.btn-submit:hover
+{
+    background-color: #d5d5d5;
+}
+
+#solve-form input.letters
+{
+    color: white;
+}
+
+.hero-main .help-text
+{
+    margin-top: 15px;
+}
+
+.hero-main .help-text .heading
+{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+#solve-form .alert
+{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.hero-main .intro-text span.name
+{
+    font-size: 2.75em;
+}
+
+/* Media queries */
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px)
+{
+    body .hero-main
+    {
+        padding-top: 100px;
+    }
+}
